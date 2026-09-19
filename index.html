@@ -9,11 +9,24 @@
 
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
+<body class="bg-black text-white">
+    <!-- Header -->
+     <header class="flex items-center justify-between px-12">
+        <!-- Logo -->
+         <a href="#">
+         <img class="w-32" src="images/logo.png" alt="">
+         </a>
+        <!-- Navbar -->
+         <nav class="hidden md:block space-x-6 lg:space-x-8 lg:text-xl font-semibold">
+            <a href="#">Home</a>
+            <a href="#how-it-works">How It Works?</a>
+            <a href="#about">About</a>
+            <a href="#estimonials">Testimonials</a>
+            <a href="#contact">Contact Us</a>
+         </nav>
 
-    <h1 class="mt-10 text-center text-4xl font-bold">
-        The Shoe Company
-    </h1>
-
+         <!-- Mobile Menu Icon -->
+          <button type="button" class="text-4xl md:hidden" aria-label="Open menu">☰</button>
+     </header>
 </body>
 </html>
